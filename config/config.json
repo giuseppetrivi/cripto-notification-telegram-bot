@@ -1,0 +1,29 @@
+{
+  "production": {
+    "TELEGRAM_BOT_API_TOKEN": "",
+    "COINMARKET_API_TOKEN": "",
+    "OPEN_ACCESS_TO_BOT": 1,
+    "DATABASE_INFO": {
+      "username": "",
+      "password": "",
+      "db_name": "",
+      "db_host": ""
+    }
+  },
+
+  "testing": {
+    "TELEGRAM_BOT_API_TOKEN": "",
+    "COINMARKET_API_TOKEN": "",
+    "OPEN_ACCESS_TO_BOT": 1,
+    "DATABASE_INFO": {
+      "username": "",
+      "password": "",
+      "db_name": "",
+      "db_host": ""
+    }
+  }
+  
+  
+  
+  
+}
