@@ -1,2 +1,10 @@
 # cripto-notification-telegram-bot
-Telegram bot to get periodic notification about criptocurrencies of your interest and see some useful info
+## What is this?
+cosa è, lo scopo del bot e dove si può provare @CryptoNotification_bot
+
+---
+## Libraries and services used.
+
+## How does it work?
+
+## How to adapt on your own server.
