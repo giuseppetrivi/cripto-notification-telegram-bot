@@ -11,7 +11,7 @@ I've used [composer](https://getcomposer.org/) to get the following PHP librarie
 - [telegram-bot-sdk](https://github.com/irazasyed/telegram-bot-sdk) : to have an interface for the Telegram bot API calls
 - [meekrodb](https://github.com/SergeyTsalkov/meekrodb) : to have a set of function to make simple and secure database calls
 <br>
-To get info about cryptocurrencies state i've used the [API of Coinmarket](https://coinmarketcap.com/api) .
+To get info about cryptocurrencies state i've used the [API of Coinmarket](https://coinmarketcap.com/api/) .
 
 ---
 ## How does it work?
