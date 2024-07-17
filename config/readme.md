@@ -16,7 +16,8 @@ There are 4 tables:
 In the database file there are also two triggers:
 
 #### When a new crypto is inserted
-`DELIMITER //
+```SQL
+DELIMITER //
 CREATE TRIGGER on_new_crypto
 AFTER INSERT ON cryn_cryptocurrencies
 FOR EACH ROW
@@ -24,10 +25,12 @@ BEGIN
   INSERT INTO cryn_notifications (user_idtelegram, crypto_id)
 	SELECT user_idtelegram, NEW.crypto_id FROM cryn_users;
 END //
-DELIMITER ;`
+DELIMITER ;
+```
 
 #### When a new user is inserted
-`DELIMITER //
+```SQL
+DELIMITER //
 CREATE TRIGGER on_new_user
 AFTER INSERT ON cryn_users
 FOR EACH ROW
@@ -35,4 +38,5 @@ BEGIN
   INSERT INTO cryn_notifications (user_idtelegram, crypto_id)
   SELECT NEW.user_idtelegram, crypto_id FROM cryn_cryptocurrencies;
 END //
-DELIMITER ;`
+DELIMITER ;
+```
